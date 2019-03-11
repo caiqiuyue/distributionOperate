@@ -1,0 +1,16 @@
+.app-main{
+  margin-left: 180px;
+  padding: 84px 0 0 0;
+  background: #fff;
+  transition: margin-left 0.28s;
+  >div{
+    min-height: 100%;
+    background: #fff;
+  }
+  .components-wrap{
+    padding: 20px;
+  }
+  &.hideSidebar{
+    margin-left: 36px;
+  }
+}

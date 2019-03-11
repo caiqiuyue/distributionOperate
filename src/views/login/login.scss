@@ -1,0 +1,62 @@
+.login-wrap{
+  padding: 5px 10px;
+  background-color: #2d3a4b;
+  height: 100%;
+  background: url("../../assets/img/star.jpg") no-repeat center center;
+  background-size: 100%;
+  #login-bg{
+    height: 100%;
+  }
+  .login-main{
+    min-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    padding: 0 40px 40px 40px;
+    box-shadow: -15px 15px 15px rgba(6, 17, 47, 0.7);
+    background: #35394a;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #35394a), color-stop(100%, rgb(0, 0, 0)));
+    background: -webkit-linear-gradient(230deg, rgba(53, 57, 74, 0) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(230deg, rgba(53, 57, 74, 0.9) 0%, rgb(0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(53, 57, 74, 0)', endColorstr='rgb(0, 0, 0)',GradientType=1 );
+  }
+  .el-form-item__label{
+    color: #eee;
+  }
+  .login-title{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 24px;
+    color: #eee;
+  }
+  .el-input-mine{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    .el-input__inner{
+      background-color: #2d3a4b !important;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #cccccc;
+      -webkit-box-shadow: 0 0 0 1000px #283443 inset!important;
+      -webkit-text-fill-color: #fff!important;
+    }
+  }
+  .el-input-code{
+
+  }
+  .codeImg{
+    vertical-align: middle;
+    height: 30px;
+  }
+  .el-form-item{
+    margin-bottom: 18px;
+  }
+  .change{
+    text-align: center;
+    padding:10px;
+    a{
+      color:#fff;
+    }
+  }
+}
